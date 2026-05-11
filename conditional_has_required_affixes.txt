@@ -1,0 +1,113 @@
+1: {
+  1: "Required Affixes"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 6
+    2: 0x0027fc93             //Weapon Damage
+    4: 1                      //Must have at least 1
+  }
+  5: 1
+}
+
+1: {
+  1: "Required Affixes"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 6
+    2: 0x0027fc93             //Weapon Damage
+    3: {                      //1 GA selected
+      1: 0x0027fc93
+      2: 0x0027fc93
+    }
+    4: 1                      //Must have at least 1 selected
+  }
+  5: 1
+}
+
+1: {
+  1: "Required Affixes"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 6
+    2: 0x0027fc93             //Weapon Damage
+    2: 0x001beac2             //Strength
+    3: {
+      1: 0x0027fc93
+      2: 0x0027fc93
+    }
+    4: 1                      //Must have at least 1 selected
+  }
+  }
+  5: 1
+}
+
+1: {
+  1: "Required Affixes"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 6
+    2: 0x0027fc93             //Weapon Damage
+    2: 0x001beac2             //Strength
+    3: {
+      1: 0x001beac2           //Strength
+      2: 0x001beac2           //Strength
+    }
+    3: {
+      1: 0x0027fc93           //Weapon Strength
+      2: 0x0027fc93           //Weapon Strength
+    }
+    4: 1                      //Must have 1 selected
+  }
+  5: 1
+}
+
+1: {
+  1: "Required Affixes"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 6
+    2: 0x0027fc93             //Weapon Damage
+    2: 0x001beac2             //Strength
+    3: {
+      1: 0x001beac2           //Strength
+      2: 0x001beac2           //Strength
+    }
+    3: {
+      1: 0x0027fc93           //Weapon Strength
+      2: 0x0027fc93           //Weapon Strength
+    }
+    4: 2                      //Must have 2 selected
+  }
+  5: 1
+}
+
+1: {
+  1: "Required Affixes"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 6
+    2: 0x0027fc93
+    2: 0x001beac2
+    3: {
+      1: 0x001beac2
+      2: 0x001beac2
+    }
+    3: {
+      1: 0x0027fc93
+      2: 0x0027fc93
+    }
+    4: 4
+  }
+  5: 1
+}
+
+#Notes
+
+- Item Power Field again. set to 6
+- Unclear as to why the list for the GA includes the item 2x

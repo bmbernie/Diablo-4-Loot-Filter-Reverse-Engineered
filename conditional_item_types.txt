@@ -1,0 +1,69 @@
+1: {
+  1: "cond, item type weapon"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 5
+    2: 0x0006d16b             //Totem
+    2: 0x0006d15d             //Polearm
+    2: 0x0006d163             //Wand
+    2: 0x0006d152             //Two-Handed Axe
+    2: 0x0006d16a             //Focus
+    2: 0x0006d167             //Bow
+    2: 0x0006d14f             //Two-Handed Sword
+    2: 0x0006d155             //Two-Handed Scythe
+    2: 0x0006d13a             //Mace
+    2: 0x0006d159             //Dagger
+    2: 0x00165271             //Glaive
+    2: 0x0006d151             //Axe
+    2: 0x0006d172             //Shield
+    2: 0x0006d154             //Scythe
+    2: 0x0006d144             //Two-Handed Mace
+    2: 0x0006d169             //Crossbow
+    2: 0x0006d168             //Hand Crossbow
+    2: 0x0006d14c             //Sword
+    2: 0x0006d153             //Staff
+    2: 0x0016d22d             //Quarterstaff
+    2: 0x00234a98             //Flail
+  }
+  5: 1
+}
+
+1: {
+  1: "cond, item type, armor"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 5
+    2: 0x0006d16e             //Helm
+    2: 0x0006d16f             //Pants
+    2: 0x0006d171             //Gloves
+    2: 0x0006d16d             //Chest
+    2: 0x0006d170             //Boots
+  }
+  5: 1
+}
+
+1: {
+  1: "cond, item type talisman"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 5
+    2: 0x0022ed05             //Charm
+    2: 0x00237e80             //Horadric Seal
+  }
+  5: 1
+}
+
+1: {
+  1: "cond, item type jewelry"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 5
+    2: 0x0006d174             //Ring
+    2: 0x0006d175             //Amulet
+  }
+  5: 1
+}

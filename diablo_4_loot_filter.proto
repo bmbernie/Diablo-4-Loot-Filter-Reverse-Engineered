@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package lootfilter;
+
+message LootFilter {
+  repeated Rule rules = 1;
+
+  string name = 2;
+
+  uint32 field_3 = 3;
+  uint32 field_4 = 4;
+}
+
+message Rule {
+  string name = 1;
+  RuleAction action_type = 2;
+  fixed32 color = 3; // ARGB: 0xAARRGGBB
+  repeated Condition conditions = 4;
+  bool enabled = 5;
+}
+
+enum RuleAction {
+  SHOW_ITEM = 0;
+  HIDE_TEXT_LABEL = 1;
+  RECOLOR = 2;
+  HIDE_ITEM = 3;
+}
+
+message Condition {
+  ConditionType condition_type = 1;
+  repeated fixed32 values = 2;
+  repeated PairRange special_values = 3;
+  uint32 threshold = 4;
+  uint32 field_5 = 5;
+  uint32 field_6 = 6;
+}
+
+enum ConditionType {
+  CONDITION_UNKNOWN = 0;
+  CONDITION_CODEX_UPGRADE = 3;
+  CONDITION_GREATER_AFFIX_COUNT = 4;
+  CONDITION_REQUIRED_AFFIXES = 6;
+}
+
+message PairRange {
+  fixed32 value_1 = 1;
+  fixed32 value_2 = 2;
+}

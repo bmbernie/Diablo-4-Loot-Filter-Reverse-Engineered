@@ -1,0 +1,94 @@
+1: {
+  1: "item rarity"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 1
+    4: 1             //common
+  }
+  5: 1
+}
+
+1: {
+  1: "item rarity"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 1
+    4: 2             //magic
+  }
+  5: 1
+}
+
+1: {
+  1: "item rarity"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 1
+    4: 3             //Common+Magic
+  }
+  5: 1
+}
+
+1: {
+  1: "item rarity"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 1
+    4: 4             //Rare
+  }
+  5: 1
+}
+
+1: {
+  1: "item rarity"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 1
+    4: 8             //Legendary
+  }
+  5: 1
+}
+
+1: {
+  1: "item rarity"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 1
+    4: 8             //Unique
+  }
+  5: 1
+}
+
+1: {
+  1: "item rarity"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 1
+    4: 32            //Mythic
+  }
+  5: 1
+}
+
+1: {
+  1: "item rarity"
+  2: 0
+  3: 0xffff0000
+  4: {
+    1: 1
+    4: 64            //Talisman Set(s)
+  }
+  5: 1
+}
+
+#Notes 
+
+uses the same field as power, but set to 1 instead of 0
+
+4 the rarity type
+looks like a bit field
