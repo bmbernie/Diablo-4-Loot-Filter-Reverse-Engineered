@@ -1,3 +1,6 @@
+# Item Types
+
+```
 1: {
   1: "cond, item type weapon"
   2: 0
@@ -28,7 +31,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "cond, item type, armor"
   2: 0
@@ -43,7 +47,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "cond, item type talisman"
   2: 0
@@ -55,7 +60,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "cond, item type jewelry"
   2: 0
@@ -67,3 +73,6 @@
   }
   5: 1
 }
+```
+
+## Notes

@@ -1,3 +1,8 @@
+# Item Properties
+
+Nothing selected in the UI
+
+```
 1: {
   1: "Item Properties"
   2: 0
@@ -7,9 +12,9 @@
   }
   5: 1
 }
+```
 
-^ nothing selected in the UI
-
+```
 1: {
   1: "Item Properties"
   2: 0
@@ -20,7 +25,9 @@
   }
   5: 1
 }
+```
 
+```
 1: {
   1: "Item Properties"
   2: 0
@@ -31,7 +38,9 @@
   }
   5: 1
 }
+```
 
+```
 1: {
   1: "Item Properties"
   2: 0
@@ -42,7 +51,8 @@
   }
   5: 1
 }
+```
 
-#Note
+## Notes
 
-Interesting that they aren't using a bit field like the rarity field, or maybe they are but not starting at 1
+- Interesting that they aren't using a bit field like the rarity field, or maybe they are but not starting at 1

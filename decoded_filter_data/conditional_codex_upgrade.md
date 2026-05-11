@@ -1,3 +1,6 @@
+# Code Upgrade
+
+```
 1: {
   1: "conditional, codex upgra"
   2: 0
@@ -8,7 +11,8 @@
   }
   5: 1
 }
+```
 
-# Notes
+## Notes
 
-len(Field_1) == 24
+- len(Field_1) == 24 bytes

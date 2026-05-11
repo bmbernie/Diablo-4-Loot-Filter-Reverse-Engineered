@@ -1,3 +1,6 @@
+# Has Optional Affixes
+
+```
 1: {
   1: "Optional Affixes"
   2: 0
@@ -18,7 +21,8 @@
   }
   5: 1
 }
+```
 
-#Notes
+## Notes
 
 - format same as required, but using a value of 7 instead of 6

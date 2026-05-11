@@ -1,3 +1,6 @@
+# Talisman Set Bonus
+
+```
 1: {
   1: "Talisman Set Bonus"
   2: 0
@@ -8,7 +11,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Talisman Set Bonus"
   2: 0
@@ -23,7 +27,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Talisman Set Bonus"
   2: 0
@@ -39,7 +44,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Talisman Set Bonus"
   2: 0
@@ -56,7 +62,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Talisman Set Bonus"
   2: 0
@@ -74,7 +81,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Talisman Set Bonus"
   2: 0
@@ -93,7 +101,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Talisman Set Bonus"
   2: 0
@@ -113,7 +122,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Talisman Set Bonus"
   2: 0
@@ -137,8 +147,8 @@
   }
   5: 1
 }
+```
 
-
-# Notes
+## Notes
 
 - Seems redundant to send the talisman set id in both the within the conditional and again within the arguments

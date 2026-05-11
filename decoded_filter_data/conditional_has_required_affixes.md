@@ -1,3 +1,6 @@
+# Has Required Affixes
+
+```
 1: {
   1: "Required Affixes"
   2: 0
@@ -9,7 +12,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Required Affixes"
   2: 0
@@ -25,7 +29,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Required Affixes"
   2: 0
@@ -43,7 +48,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Required Affixes"
   2: 0
@@ -64,7 +70,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Required Affixes"
   2: 0
@@ -85,7 +92,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "Required Affixes"
   2: 0
@@ -102,12 +110,13 @@
       1: 0x0027fc93
       2: 0x0027fc93
     }
-    4: 4
+    4: 4                      //Must have 4 selected
   }
   5: 1
 }
+```
 
-#Notes
+## Notes
 
 - Item Power Field again. set to 6
 - Unclear as to why the list for the GA includes the item 2x

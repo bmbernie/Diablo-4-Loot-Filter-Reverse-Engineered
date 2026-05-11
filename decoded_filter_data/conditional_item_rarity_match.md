@@ -1,3 +1,6 @@
+# Item Rarity
+
+```
 1: {
   1: "item rarity"
   2: 0
@@ -8,7 +11,9 @@
   }
   5: 1
 }
+```
 
+```
 1: {
   1: "item rarity"
   2: 0
@@ -19,7 +24,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "item rarity"
   2: 0
@@ -30,7 +36,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "item rarity"
   2: 0
@@ -41,7 +48,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "item rarity"
   2: 0
@@ -52,7 +60,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "item rarity"
   2: 0
@@ -63,7 +72,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "item rarity"
   2: 0
@@ -74,7 +84,8 @@
   }
   5: 1
 }
-
+```
+```
 1: {
   1: "item rarity"
   2: 0
@@ -85,10 +96,9 @@
   }
   5: 1
 }
+```
 
-#Notes 
+## Notes 
 
-uses the same field as power, but set to 1 instead of 0
-
-4 the rarity type
-looks like a bit field
+- uses the same field as power, but set to 1 instead of 0
+- looks like a bit field

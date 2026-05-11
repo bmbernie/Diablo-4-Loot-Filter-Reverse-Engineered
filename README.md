@@ -1,0 +1,44 @@
+Diablo 4 Loot Filter Reverse Engineered
+
+Research project focused on understanding and documenting the Diablo IV loot filter import/export format.
+
+## Features
+
+- Decode loot filter payloads
+- Encode loot filter payloads
+- Base64 import/export support
+- Protocol experimentation and analysis
+
+## Requirements
+
+- Python 3.11+
+
+## Usage
+
+Decode a filter:
+
+```bash
+python lootfilter_decoded.py $base64_encoded_loot_filter
+```
+
+Encode a filter:
+
+```bash
+python lootfilter_write_test.py
+```
+
+## Status
+
+Work in progress.
+
+Currently focused on:
+- protocol structure analysis
+- serialization/deserialization
+- string encoding behavior
+- compatibility testing with the game client
+
+## Disclaimer
+
+This project is for educational and interoperability research purposes only.
+
+Diablo IV and related assets are property of Blizzard Entertainment.
