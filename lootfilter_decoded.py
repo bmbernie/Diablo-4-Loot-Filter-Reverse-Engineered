@@ -104,7 +104,7 @@ def parse_message(data, indent=0):
 
             raw = data[offset:offset + 4]
             offset += 4
-            value = struct.unpack("<I", raw)[0] #little endian unsigned int32
+            value = struct.unpack("<I", raw)[0] # little endian unsigned int32
             print(f"0x{value:08x}")
 
         # -------------------------
@@ -125,6 +125,7 @@ def main():
     encoded_loot_filter = get_encoded_filter()
 
     if len(encoded_loot_filter) == 0:
+        print("Empty Loot filter, exiting...")
         sys.exit(0)
     try:
         decoded_lootfilter = base64.b64decode(encoded_loot_filter)

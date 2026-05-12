@@ -23,4 +23,4 @@
 - [x] talisman set bonus
 
 ## Project
-- [ ] Find
+- [ ] add `requirements.txt`
