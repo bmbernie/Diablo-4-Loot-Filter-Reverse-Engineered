@@ -1,3 +1,5 @@
+![image](assets/specific_unique_filter.jpg)
+
 # Obtain Base64 Encoded Filter
 
 1. From within Diablo 4, navigate to the Loot Filter menu.
@@ -57,6 +59,7 @@ type. As a result, protobuf blobs cannot be reliably classified through conventi
 ~~~sh
 file specific_unique_filter.bin 
 ~~~
+
 ~~~text
 specific_unique_filter.bin: data
 ~~~
