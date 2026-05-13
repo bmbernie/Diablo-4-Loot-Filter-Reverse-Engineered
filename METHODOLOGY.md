@@ -26,12 +26,12 @@ Windows:
 ~~~
 
 macOS:
-~~~bash
+~~~sh
 pbpaste | base64 --decode > filter_test_case.bin
 ~~~
 
 Linux:
-~~~bash
+~~~sh
 xclip -selection clipboard -o | base64 --decode > filter_test_case.bin
 ~~~
 
@@ -54,7 +54,7 @@ Unlike many binary serialization or container formats, Protocol Buffers (protobu
 signature or “[magic bytes](https://en.wikipedia.org/wiki/List_of_file_signatures)” sequence that uniquely identifies the payload 
 type. As a result, protobuf blobs cannot be reliably classified through conventional file-signature analysis such as the `file` command; as demonstrated below.
 
-~~~bash
+~~~sh
 file specific_unique_filter.bin 
 ~~~
 ~~~text
