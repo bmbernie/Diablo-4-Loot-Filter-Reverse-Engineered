@@ -4,7 +4,7 @@
 
 1. From within Diablo 4, navigate to the Loot Filter menu.
 2. Create a filter.
-3. From the kebab menu (3 vertical dots), select **Export Filter**.
+3. From the ellipsis menu (3 horizontal dots located to the right of the filter name), select **Export Filter**.
 
 The filter contents are now stored in your clipboard.
 
@@ -54,13 +54,11 @@ xclip -selection clipboard -o | base64 --decode > filter_test_case.bin
 
 Unlike many binary serialization or container formats, Protocol Buffers (protobufs) do not embed a canonical file 
 signature or “[magic bytes](https://en.wikipedia.org/wiki/List_of_file_signatures)” sequence that uniquely identifies the payload 
-type. As a result, protobuf blobs cannot be reliably classified through conventional file-signature analysis such as the `file` command; as demonstrated below.
+type. As a result, protobuf messages cannot be reliably classified through conventional file-signature analysis tools such as the `file` command.
 
 ~~~sh
 file specific_unique_filter.bin 
-~~~
 
-~~~text
 specific_unique_filter.bin: data
 ~~~
 
