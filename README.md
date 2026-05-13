@@ -15,6 +15,8 @@ Research project focused on understanding and documenting the Diablo IV loot fil
 
 - Python 3.11+
   - protobuf
+- Golang
+  - protoscope
 
 ## Usage
 
