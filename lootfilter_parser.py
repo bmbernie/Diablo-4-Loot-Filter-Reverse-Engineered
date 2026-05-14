@@ -2,15 +2,18 @@ import sys
 import base64
 import struct
 
-WIRE_VARINT = 0
-WIRE_64BIT = 1
-WIRE_LENGTH_DELIMITED = 2
-WIRE_32BIT = 5
+WIRE_VARINT = 0                 # int32,int64,uint32,uint64,sint32,sint64,bool,enum
+WIRE_64BIT = 1                  # fixed64, sfixed64, double
+WIRE_LENGTH_DELIMITED = 2       # string, bytes, embedded messages, packed repeated fields
+WIRE_SGROUP = 3                 # Deprecated
+WIRE_EGROUP = 4                 # Deprecated
+WIRE_32BIT = 5                  # fixed32,sfixed32,float
+
 
 def get_encoded_filter():
     if len(sys.argv) != 2:
         print("Usage: ")
-        print("    python lootfilter_decoded.py $LOOT_FILTER")
+        print("    python lootfilter_parser.py $LOOT_FILTER")
         return ""
     elif len(sys.argv) > 1:
         return sys.argv[1]

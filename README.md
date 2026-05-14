@@ -13,9 +13,9 @@ Research project focused on understanding and documenting the Diablo IV loot fil
 
 ## Requirements
 
-- Python 3.11+
+- Python
   - protobuf
-- Golang
+- Go
   - protoscope
 
 ## Usage
@@ -23,7 +23,7 @@ Research project focused on understanding and documenting the Diablo IV loot fil
 Decode a filter:
 
 ```bash
-python lootfilter_decoded.py $base64_encoded_loot_filter
+python lootfilter_parser.py $base64_encoded_loot_filter
 ```
 ```
 1: {
